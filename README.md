@@ -14,7 +14,10 @@ directory you will need a configs import file. This script assumes that the
 imports file is named `i3_configs.conf`, create it with the contents following
 this pattern:
 
-`# ~/.i3/config.d/i3_configs.conf`
+
+`# ~/.i3/config.d/machine_i3_configs.conf`
+
+where machine is prompted when running the script. Just a minor addition to choose which i3\_configs is chosen.
 
 ```bash
 # the vars file needs to be first so that other config files can use the vars
@@ -41,6 +44,7 @@ configuration and feel a little more organized.
 Once you have this structure setup, you can execute `create_config` and it will
 delete your current `~/.i3/config` file and create a new one using the files
 that in your `i3_configs.conf` file.
+
 
 ### Tips
 
